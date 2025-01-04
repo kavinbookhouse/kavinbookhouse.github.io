@@ -1,0 +1,143 @@
+/* Global Styles */
+:root {
+  --primary-color: #2c3e50;
+  --secondary-color: #3498db;
+  --accent-color: #e74c3c;
+  --background-color: #aad4fa;
+  --text-color: #333;
+  --border-radius: 8px;
+  --box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+}
+
+/* Header Styles */
+.header-container {
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  padding: 2rem 0;
+  margin-bottom: 3rem;
+  border-radius: 0 0 var(--border-radius) var(--border-radius);
+  box-shadow: var(--box-shadow);
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+
+.tagline {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+/* Category Boxes */
+.category-box {
+  background: white;
+  border-radius: var(--border-radius);
+  padding: 1.5rem;
+  margin: 0.8rem;
+  box-shadow: var(--box-shadow);
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.category-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+  background: var(--secondary-color);
+  color: white;
+}
+
+/* Book Boxes */
+.book-box {
+  background: white;
+  border-radius: var(--border-radius);
+  padding: 1.5rem;
+  margin: 1rem;
+  box-shadow: var(--box-shadow);
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.book-box:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.book-title {
+  color: var(--primary-color);
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.book-price {
+  color: var(--accent-color);
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+/* Search Input */
+.search-container {
+  margin: 2rem 0;
+}
+
+.search-input {
+  border-radius: var(--border-radius);
+  padding: 1rem;
+  border: 2px solid #eee;
+  transition: all 0.3s ease;
+  box-shadow: var(--box-shadow);
+}
+
+.search-input:focus {
+  border-color: var(--secondary-color);
+  box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
+}
+
+/* Buttons */
+.custom-btn {
+  padding: 0.8rem 1.5rem;
+  border-radius: var(--border-radius);
+  transition: all 0.3s ease;
+  font-weight: 500;
+  box-shadow: var(--box-shadow);
+}
+
+.custom-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Modal Styles */
+.modal-content {
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}
+
+.modal-header {
+  background: var(--primary-color);
+  color: white;
+  border-radius: var(--border-radius) var(--border-radius) 0 0;
+}
+
+.modal-body {
+  padding: 2rem;
+}
+.whatsapp-logo {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Kavin Book House</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Bootstrap CSS -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+  />
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-7BXETGEWLP"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-7BXETGEWLP');
+  </script>
+</head>
+<body>
+  <div class="container text-center mt-5">
+    <div class="header-container">
+      <div class="container text-center">
+        <img src="logo.png" alt="Logo" class="logo me-3" />
+        <h1 class="display-4 text-white">
+          
+          Kavin Book House
+        </h1>
+        <p class="tagline"><strong> Distributors for Schools and College Books Since 2013.</strong></p>
+        <p class="tagline">Tamilnadu Text Books Authorized Supplier.</p>
+        <p class="tagline">NCERT Books Authorized Supplier.</p>
+      </div>
+    </div>
+
+    <div class="mt-4">
+      <button
+        type="button"
+        class="btn btn-success custom-btn me-2"
+        data-bs-toggle="modal"
+        data-bs-target="#phoneNumberModal"
+      >
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/124/124034.png"
+          alt="WhatsApp"
+          class="whatsapp-logo"
+        />
+        WhatsApp
+      </button>
+
+      <button
+        type="button"
+        class="btn btn-primary custom-btn me-2"
+        data-bs-toggle="modal"
+        data-bs-target="#addressModal"
+      >
+        Contact Us
+      </button>
+
+      <button
+        type="button"
+        class="btn btn-warning custom-btn"
+        data-bs-toggle="modal"
+        data-bs-target="#upiQrModal"
+      >
+        UPI QR Code
+      </button>
+    </div>
+
+    <!-- Phone Number Modal -->
+    <div
+      class="modal fade"
+      id="phoneNumberModal"
+      tabindex="-1"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Contact Number</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <p>Phone: +91 9791192445</p>
+            <a
+              href="https://wa.me/919876543210"
+              target="_blank"
+              class="btn btn-success"
+            >
+              Open WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Address Modal -->
+    <div class="modal fade" id="addressModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Address & Gmail</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <p>Address: 9/11, Thillaiyadi Valliammai Street, Kennedy Square, Sembiam, Thiru-V-Ka Nagar, Perambur, Chennai-600 011</p>
+            <p>Email: kavinbookhouse@gmail.com</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- UPI QR Code Modal -->
+    <div
+      class="modal fade"
+      id="upiQrModal"
+      tabindex="-1"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">UPI QR Code</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body text-center">
+            <img src="qr-code.jpg" alt="UPI QR Code" class="img-fluid" />
+            <p class="mt-3">Scan this QR code to make a payment via UPI.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Categories -->
+
+    <!-- New two-column layout -->
+    <div class="row mt-5">
+      <!-- Categories column - takes up most of the space -->
+      <div class="col-md-9" style="text-align: center;">
+        <div id="categories" class="row"></div>
+      </div>
+      
+      <!-- New narrow right column -->
+      <div class="col-md-3">
+        <div class="card">
+          <div class="card-header">
+            <h5 class="mb-0">Fast Moving Books</h5>
+          </div>
+          <div class="card-body">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Dictionary</li>
+              <li class="list-group-item">Oxford dictionary</li>
+              <li class="list-group-item">Macmillan dictionary</li>
+              <li class="list-group-item">Collins dictionary</li>
+              <li class="list-group-item">Cambridge dictionary</li>
+              <li class="list-group-item">Atlas</li>
+              <li class="list-group-item">Oxford Atlas</li>
+              <li class="list-group-item">Macmillan Atlas (Indian)</li>
+              <li class="list-group-item">Cambridge Atlas</li>
+              <li class="list-group-item">Best Sellers</li>
+              <li class="list-group-item">Amarchitra stories</li>
+              <li class="list-group-item">Asterix comics</li>
+              <li class="list-group-item">Papermate Notebooks - All sizes</li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Bootstrap JS & Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const categories = [
+        "All Books",
+        "Medical Books",
+        "Engineering Books",
+        "Computer Science Books",
+        "Law Books",
+        "UPSC Books",
+        "NCERT Books",
+        "TNPSC Books",
+        "Tamil Nadu Textbooks",
+        "E-Books",
+        "E-Journals", 
+        "Library Books",
+        "Sports Books", 
+        "Other Collections",
+        "New Arrivals 💫💫💫"
+      ];
+      const categoriesContainer = document.getElementById("categories");
+
+      categories.forEach(cat => {
+        const div = document.createElement("div");
+        div.className = "col-md-3 category-box";
+        div.textContent = cat;
+        div.addEventListener("click", () => {
+          window.location.href = `books.html?category=${encodeURIComponent(cat)}`;
+        });
+        categoriesContainer.appendChild(div);
+      });
+    });
+  </script>
+</body>
+</html>
