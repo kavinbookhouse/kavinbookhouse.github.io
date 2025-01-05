@@ -89,6 +89,12 @@ body {
   font-weight: bold;
 }
 
+.book-thumbnail {
+  width: 50px;
+  height: 75px;
+  object-fit: cover;
+}
+
 /* Search Input */
 .search-container {
   margin: 2rem 0;
@@ -136,12 +142,13 @@ body {
 .modal-body {
   padding: 2rem;
 }
+
 .whatsapp-logo {
   width: 15px;
   height: 15px;
   margin-right: 5px;
 }
 
-.list-group-item{
+.list-group-item {
   text-align: left;
 }
