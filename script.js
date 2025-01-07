@@ -113,21 +113,42 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function updateCartModal() {
-      const cartItems = document.getElementById("cartItems");
-      cartItems.innerHTML = "";
-      
-      cart.forEach(item => {
-          const li = document.createElement("li");
-          li.className = "list-group-item";
-          li.textContent = `${item.book.title} - ₹${item.book.price} x ${item.quantity}`;
-          cartItems.appendChild(li);
-      });
-  }
+    const cartItems = document.getElementById("cartItems");
+    cartItems.innerHTML = "";
+    let total = 0;
+    
+    cart.forEach(item => {
+        const itemTotal = item.book.price * item.quantity;
+        total += itemTotal;
+        const li = document.createElement("li");
+        li.className = "list-group-item";
+        li.textContent = `${item.book.title} - ₹${item.book.price} x ${item.quantity} = ₹${itemTotal}`;
+        cartItems.appendChild(li);
+    });
 
-  function sendWhatsAppMessage() {
-      const message = cart.map(item => 
-          `${item.book.title} - ₹${item.book.price} x ${item.quantity}`
-      ).join("\n");
-      window.open(`https://wa.me/919791192445?text=${encodeURIComponent(message)}`, "_blank");
-  }
+    // Add total price if cart has items
+    if (cart.length > 0) {
+        const totalLi = document.createElement("li");
+        totalLi.className = "list-group-item active";
+        totalLi.textContent = `Total: ₹${total}`;
+        cartItems.appendChild(totalLi);
+    }
+}
+
+function sendWhatsAppMessage() {
+    const items = cart.map(item => 
+        `${item.book.title} - ₹${item.book.price} x ${item.quantity} = ₹${item.book.price * item.quantity}`
+    );
+    const total = cart.reduce((sum, item) => sum + (item.book.price * item.quantity), 0);
+    const message = `Order Details:\n\n${items.join('\n')}\n\nTotal: ₹${total}`;
+    
+    // Copy to clipboard silently
+    navigator.clipboard.writeText(message)
+        .catch(err => {
+            console.error('Failed to copy text: ', err);
+        });
+
+    // Open WhatsApp
+    window.open(`https://wa.me/919791192445?text=${encodeURIComponent(message)}`, "_blank");
+}
 });
