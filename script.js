@@ -149,6 +149,6 @@ function sendWhatsAppMessage() {
         });
 
     // Open WhatsApp
-    window.open(`https://wa.me/919791192445?text=${encodeURIComponent(message)}`, "_blank");
+    window.open(`https://wa.me/919884316268?text=${encodeURIComponent(message)}`, "_blank");
 }
 });
