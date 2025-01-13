@@ -150,5 +150,11 @@ function sendWhatsAppMessage() {
 
     // Open WhatsApp
     window.open(`https://wa.me/919884316268?text=${encodeURIComponent(message)}`, "_blank");
+
+    // Clear the cart
+    cart = [];
+    localStorage.setItem("cart", JSON.stringify(cart));
+    updateCartIcon();
+    updateCartModal();
 }
 });
