@@ -58,12 +58,16 @@ document.addEventListener("DOMContentLoaded", () => {
           const quantity = cartItem ? cartItem.quantity : 0;
 
           box.innerHTML = `
+              <small class="text-muted">Title:</small>
               <h3 class="book-title">${book.title}</h3>
               <p><strong>Author:</strong> ${book.author}</p>
               <p><strong>Publisher:</strong> ${book.publisher}</p>
               <p><strong>ISBN:</strong> ${book.isbn}</p>
               <div class="d-flex justify-content-between align-items-end">
-                  <p class="book-price">₹${book.price}</p>
+                  <div>
+                      <small class="text-muted">Rate:</small>
+                      <p class="book-price">₹${book.price}</p>
+                  </div>
                   ${book.thumbnail ? `<img src="${book.thumbnail}" alt="${book.title} thumbnail" class="book-thumbnail">` : ''}
               </div>
               <div class="quantity-controls">
