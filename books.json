@@ -1,162 +1,93 @@
 [
+    
     {
-        "title": "Introduction to Computer Science Using Python",
-        "price": 215,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "Tamil Nadu Textbooks",
+        "title": "Anatomy Demystified: A Comprehensive Guide",
+        "price": 320,
+        "author": "Dr. A. Verma",
+        "publisher": "MediLearn",
+        "category": "Medical Books",
         "isbn": "978-0-00-000000-0"
     },
+    {
+        "title": "Pathophysiology and Medical Diagnostics",
+        "price": 410,
+        "author": "Dr. S. Nair",
+        "publisher": "HealthHouse",
+        "category": "Medical Books",
+        "isbn": "978-0-00-000000-0"
+    },
+    {
+        "title": "Clinical Procedures in Medicine",
+        "price": 395,
+        "author": "Dr. L. Gupta",
+        "publisher": "MedPress",
+        "category": "Medical Books",
+        "isbn": "978-0-00-000000-0"
+    },
+    {
+        "title": "Pharmacology Essentials",
+        "price": 280,
+        "author": "Dr. R. Sharma",
+        "publisher": "CureBooks",
+        "category": "Medical Books",
+        "isbn": "978-0-00-000000-0"
+    },
+    {
+        "title": "Medical Ethics in Practice",
+        "price": 360,
+        "author": "Dr. M. Rao",
+        "publisher": "EthicMed",
+        "category": "Medical Books",
+        "isbn": "978-0-00-000000-0"
+    },
+    
+    {
+        "title": "Fundamentals of Civil Engineering",
+        "price": 450,
+        "author": "Eng. P. Reddy",
+        "publisher": "BuildTech",
+        "category": "Engineering Books",
+        "isbn": "978-0-00-000000-0"
+    },
+    {
+        "title": "Electrical Engineering Principles",
+        "price": 480,
+        "author": "Eng. S. Kumar",
+        "publisher": "ElectroPub",
+        "category": "Engineering Books",
+        "isbn": "978-0-00-000000-0"
+    },
+    {
+        "title": "Modern Mechanical Design",
+        "price": 510,
+        "author": "Eng. J. Singh",
+        "publisher": "MechWorld",
+        "category": "Engineering Books",
+        "isbn": "978-0-00-000000-0"
+    },
+    {
+        "title": "Introduction to Structural Analysis",
+        "price": 430,
+        "author": "Eng. D. Patel",
+        "publisher": "StructBooks",
+        "category": "Engineering Books",
+        "isbn": "978-0-00-000000-0"
+    },
+    {
+        "title": "Thermodynamics and Fluid Mechanics",
+        "price": 490,
+        "author": "Eng. R. Verma",
+        "publisher": "EngiPress",
+        "category": "Engineering Books",
+        "isbn": "978-0-00-000000-0"
+    },
+    
     {
         "title": "JavaScript: The Good Parts",
         "price": 354,
         "author": "Dr. R.S. Aggarval",
         "publisher": "S Chand And Company Limited",
         "category": "Computer Science Books",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "The Pragmatic Programmer",
-        "price": 992,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "E-Books",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "Modern Operating Systems",
-        "price": 599,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "UPSC Books",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "The New Turing Omnibus: Sixty-Six Excursions in Computer Science",
-        "price": 489,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "Law Books",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "C Programming Language",
-        "price": 410,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "Medical Books",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "Free Software, Free Society",
-        "price": 423,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "Medical Books",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "The C++ Programming Language",
-        "price": 258,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "Medical Books",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "The Mythical Man-Month",
-        "price": 309,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "E-Journals",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "Computer Organization and Design",
-        "price": 337,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "UPSC Books",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "Programming Pearls",
-        "price": 847,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "Medical Books",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "Design Patterns",
-        "price": 728,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "Engineering Books",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "Hackers: Heroes of the Computer Revolution",
-        "price": 305,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "NCERT Books",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "Effective Java",
-        "price": 534,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "E-Books",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "Transaction Processing",
-        "price": 907,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "Law Books",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "Thinking in Java",
-        "price": 214,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "NCERT Books",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "Compilers: Principles, Techniques, and Tools",
-        "price": 782,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "UPSC Books",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "Data Structures and Algorithms",
-        "price": 889,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "Tamil Nadu Textbooks",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "Selected Papers on Computer Science",
-        "price": 886,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "Tamil Nadu Textbooks",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "The Art of UNIX Programming",
-        "price": 136,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "NCERT Books",
         "isbn": "978-0-00-000000-0"
     },
     {
@@ -168,235 +99,11 @@
         "isbn": "978-0-00-000000-0"
     },
     {
-        "title": "The Soul of A New Machine",
-        "price": 955,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "UPSC Books",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "Programming Ruby",
-        "price": 997,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "UPSC Books",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "Operating Systems: Principles and Practice",
-        "price": 729,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "E-Journals",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "Understanding Cryptography",
-        "price": 450,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "E-Books",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "Win32 Programming",
-        "price": 500,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "Tamil Nadu Textbooks",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "Architecture of Computer Hardware and System Software",
-        "price": 403,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "NCERT Books",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "Introduction to the Theory of Computation",
-        "price": 592,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "Engineering Books",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "Peopleware: Productive Projects and Teams",
-        "price": 977,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "E-Books",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "The Inmates Are Running the Asylum",
-        "price": 337,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "Tamil Nadu Textbooks",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "Distributed Systems: Principles and Paradigms",
-        "price": 118,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "TNPSC Books",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "Coders at Work",
-        "price": 943,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "Law Books",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "Operating System Concepts",
-        "price": 859,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "Law Books",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "Rebel Code: Linux And The Open Source Revolution",
-        "price": 616,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "NCERT Books",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "Natural Language Processing with Python",
-        "price": 186,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "E-Journals",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "Programming Massively Parallel Processors",
-        "price": 423,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "Engineering Books",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
         "title": "Database System Concepts",
         "price": 882,
         "author": "Dr. R.S. Aggarval",
         "publisher": "S Chand And Company Limited",
         "category": "Computer Science Books",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "Hackers & Painters: Big Ideas from the Computer Age",
-        "price": 348,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "Medical Books",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "Godel, Escher, Bach",
-        "price": 749,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "UPSC Books",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "Computability: An Introduction to Recursive Function Theory",
-        "price": 983,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "Medical Books",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "Computer Vision: Algorithms and Applications",
-        "price": 479,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "NCERT Books",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "How to Solve It: A New Aspect of Mathematical Method",
-        "price": 444,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "NCERT Books",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "Writing Secure Code",
-        "price": 935,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "Law Books",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "No Bugs!: Delivering Error Free Code in C and C++",
-        "price": 842,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "Engineering Books",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "The Cathedral & the Bazaar",
-        "price": 923,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "E-Books",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "Concepts in Programming Languages",
-        "price": 734,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "NCERT Books",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "How to Think Like a Mathematician",
-        "price": 952,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "UPSC Books",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "Numerical Recipes: The Art of Scientific Computing",
-        "price": 738,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "E-Journals",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "Advanced Data Structures",
-        "price": 494,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "Tamil Nadu Textbooks",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "The Art of Computer Programming",
-        "price": 321,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "E-Journals",
         "isbn": "978-0-00-000000-0"
     },
     {
@@ -416,150 +123,6 @@
         "isbn": "978-0-00-000000-0"
     },
     {
-        "title": "A First Course in Database Systems",
-        "price": 323,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "TNPSC Books",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "Computer Networks",
-        "price": 839,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "Law Books",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "Concurrent Programming in Java",
-        "price": 509,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "NCERT Books",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "Digital Design and Computer Architecture",
-        "price": 390,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "E-Books",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "Algorithm Design",
-        "price": 826,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "E-Journals",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "Java Puzzlers",
-        "price": 612,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "Tamil Nadu Textbooks",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "Fundamentals of Database Systems",
-        "price": 558,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "Engineering Books",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "The Productive Programmer",
-        "price": 228,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "E-Journals",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "Invent Your Own Computer Games with Python",
-        "price": 390,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "Engineering Books",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "Histories of Computing",
-        "price": 598,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "E-Books",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "Discrete Mathematics",
-        "price": 834,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "Engineering Books",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "Game Engine Architecture",
-        "price": 911,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "Engineering Books",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "The Design of Everyday Things",
-        "price": 239,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "E-Journals",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "Linux in a Nutshell",
-        "price": 227,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "Law Books",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "Artificial Intelligence: A Modern Approach",
-        "price": 905,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "Law Books",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "Pattern Recognition and Machine Learning",
-        "price": 464,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "E-Journals",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "The Google Story",
-        "price": 585,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "E-Books",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
-        "title": "Quantum Computing since Democritus",
-        "price": 603,
-        "author": "Dr. R.S. Aggarval",
-        "publisher": "S Chand And Company Limited",
-        "category": "NCERT Books",
-        "isbn": "978-0-00-000000-0"
-    },
-    {
         "title": "Linux System Programming",
         "price": 351,
         "author": "Dr. R.S. Aggarval",
@@ -567,6 +130,360 @@
         "category": "Computer Science Books",
         "isbn": "978-0-00-000000-0"
     },
+    
+    {
+        "title": "Constitutional Law: Theory and Practice",
+        "price": 410,
+        "author": "Prof. N. Iyer",
+        "publisher": "LawEdge",
+        "category": "Law Books",
+        "isbn": "978-0-00-000000-0"
+    },
+    {
+        "title": "International Business Law Essentials",
+        "price": 435,
+        "author": "Adv. K. Menon",
+        "publisher": "GlobalLaw",
+        "category": "Law Books",
+        "isbn": "978-0-00-000000-0"
+    },
+    {
+        "title": "Corporate Governance and Compliance",
+        "price": 470,
+        "author": "Adv. A. Desai",
+        "publisher": "LegalWorks",
+        "category": "Law Books",
+        "isbn": "978-0-00-000000-0"
+    },
+    {
+        "title": "Cyber Law and Data Protection",
+        "price": 405,
+        "author": "Adv. S. Roy",
+        "publisher": "CyberLaw Publishers",
+        "category": "Law Books",
+        "isbn": "978-0-00-000000-0"
+    },
+    {
+        "title": "Legal Reasoning: Cases and Commentary",
+        "price": 440,
+        "author": "Prof. M. Banerjee",
+        "publisher": "JurisPress",
+        "category": "Law Books",
+        "isbn": "978-0-00-000000-0"
+    },
+    
+    {
+        "title": "UPSC Preliminary Exam Guide",
+        "price": 380,
+        "author": "Exam Strategist R. Sen",
+        "publisher": "UPSC Prep House",
+        "category": "UPSC Books",
+        "isbn": "978-0-00-000000-0"
+    },
+    {
+        "title": "General Studies for UPSC Mains",
+        "price": 420,
+        "author": "Dr. P. Kapoor",
+        "publisher": "CivilsEdge",
+        "category": "UPSC Books",
+        "isbn": "978-0-00-000000-0"
+    },
+    {
+        "title": "UPSC Current Affairs Overview",
+        "price": 350,
+        "author": "Analyst R. Choudhury",
+        "publisher": "CurrentEdge",
+        "category": "UPSC Books",
+        "isbn": "978-0-00-000000-0"
+    },
+    {
+        "title": "Mastering UPSC Essay Writing",
+        "price": 390,
+        "author": "Faculty S. Mehta",
+        "publisher": "EssayPro",
+        "category": "UPSC Books",
+        "isbn": "978-0-00-000000-0"
+    },
+    {
+        "title": "UPSC Interview Preparation Strategies",
+        "price": 410,
+        "author": "Coach D. Reddy",
+        "publisher": "InterviewAce",
+        "category": "UPSC Books",
+        "isbn": "978-0-00-000000-0"
+    },
+    
+    {
+        "title": "Mathematics NCERT: Class XI",
+        "price": 220,
+        "author": "Mr. R. Patel",
+        "publisher": "EduMatters",
+        "category": "NCERT Books",
+        "isbn": "978-0-00-000000-0"
+    },
+    {
+        "title": "Science NCERT: Class X",
+        "price": 230,
+        "author": "Mrs. L. Desai",
+        "publisher": "LearnWell",
+        "category": "NCERT Books",
+        "isbn": "978-0-00-000000-0"
+    },
+    {
+        "title": "Social Science NCERT: Class IX",
+        "price": 210,
+        "author": "Mr. K. Gupta",
+        "publisher": "Scholarly Press",
+        "category": "NCERT Books",
+        "isbn": "978-0-00-000000-0"
+    },
+    {
+        "title": "English NCERT: Comprehensive Reader",
+        "price": 205,
+        "author": "Ms. A. Fernandes",
+        "publisher": "ReadRight",
+        "category": "NCERT Books",
+        "isbn": "978-0-00-000000-0"
+    },
+    {
+        "title": "History NCERT: Ancient Civilizations",
+        "price": 225,
+        "author": "Dr. V. Ramesh",
+        "publisher": "TimeLine Publishers",
+        "category": "NCERT Books",
+        "isbn": "978-0-00-000000-0"
+    },
+    
+    {
+        "title": "TNPSC General Studies Sample Paper",
+        "price": 265,
+        "author": "Dr. R. Iyer",
+        "publisher": "TNPSC Hub",
+        "category": "TNPSC Books",
+        "isbn": "978-0-00-000000-0"
+    },
+    {
+        "title": "Current Affairs for TNPSC Exams",
+        "price": 250,
+        "author": "M. Kumar",
+        "publisher": "StateInsights",
+        "category": "TNPSC Books",
+        "isbn": "978-0-00-000000-0"
+    },
+    {
+        "title": "TNPSC Aptitude and Reasoning",
+        "price": 275,
+        "author": "A. Rajan",
+        "publisher": "PrepMasters",
+        "category": "TNPSC Books",
+        "isbn": "978-0-00-000000-0"
+    },
+    {
+        "title": "Tamil Nadu Local Administration",
+        "price": 290,
+        "author": "S. Raghavan",
+        "publisher": "StateGuide",
+        "category": "TNPSC Books",
+        "isbn": "978-0-00-000000-0"
+    },
+    {
+        "title": "TNPSC Previous Years' Questions",
+        "price": 310,
+        "author": "V. Sundaram",
+        "publisher": "ExamVault",
+        "category": "TNPSC Books",
+        "isbn": "978-0-00-000000-0"
+    },
+    
+    {
+        "title": "Tamil Nadu Geography Textbook",
+        "price": 330,
+        "author": "Dr. K. Murugan",
+        "publisher": "StateText",
+        "category": "Tamil Nadu Textbooks",
+        "isbn": "978-0-00-000000-0"
+    },
+    {
+        "title": "Tamil Nadu History and Civics",
+        "price": 360,
+        "author": "Prof. L. Narayan",
+        "publisher": "HeritagePub",
+        "category": "Tamil Nadu Textbooks",
+        "isbn": "978-0-00-000000-0"
+    },
+    {
+        "title": "Tamil Literature: Classics and Criticism",
+        "price": 340,
+        "author": "Dr. M. Subramaniam",
+        "publisher": "Literature House",
+        "category": "Tamil Nadu Textbooks",
+        "isbn": "978-0-00-000000-0"
+    },
+    {
+        "title": "Mathematics: Tamil Nadu Edition",
+        "price": 315,
+        "author": "S. Ramasamy",
+        "publisher": "EduTamil",
+        "category": "Tamil Nadu Textbooks",
+        "isbn": "978-0-00-000000-0"
+    },
+    {
+        "title": "Science Curriculum of Tamil Nadu Schools",
+        "price": 395,
+        "author": "Dr. V. Parthasarathy",
+        "publisher": "StateLearn",
+        "category": "Tamil Nadu Textbooks",
+        "isbn": "978-0-00-000000-0"
+    },
+    
+    {
+        "title": "Digital Transformation: An E-Book Guide",
+        "price": 280,
+        "author": "E. Innovator",
+        "publisher": "eKnowledge",
+        "category": "E-Books",
+        "isbn": "978-0-00-000000-0"
+    },
+    {
+        "title": "Virtual Reality: Concepts and Applications",
+        "price": 300,
+        "author": "Tech Guru",
+        "publisher": "NextGen eBooks",
+        "category": "E-Books",
+        "isbn": "978-0-00-000000-0"
+    },
+    {
+        "title": "The Future of Work: An E-Book Analysis",
+        "price": 265,
+        "author": "F. Strategist",
+        "publisher": "Digital Press",
+        "category": "E-Books",
+        "isbn": "978-0-00-000000-0"
+    },
+    {
+        "title": "E-Commerce Strategies for the Digital Age",
+        "price": 295,
+        "author": "M. Entrepreneur",
+        "publisher": "eCommerce Hub",
+        "category": "E-Books",
+        "isbn": "978-0-00-000000-0"
+    },
+    {
+        "title": "Understanding Blockchain Technology",
+        "price": 310,
+        "author": "Crypto Analyst",
+        "publisher": "BlockPress",
+        "category": "E-Books",
+        "isbn": "978-0-00-000000-0"
+    },
+    
+    {
+        "title": "Advanced Research in AI",
+        "price": 150,
+        "author": "Dr. I. Bose",
+        "publisher": "AI Journal",
+        "category": "E-Journals",
+        "isbn": "978-0-00-000000-0"
+    },
+    {
+        "title": "Journal of Modern Physics",
+        "price": 160,
+        "author": "Prof. D. Banerjee",
+        "publisher": "Physics Today",
+        "category": "E-Journals",
+        "isbn": "978-0-00-000000-0"
+    },
+    {
+        "title": "Contemporary Economics Review",
+        "price": 155,
+        "author": "Dr. F. Das",
+        "publisher": "EconInsights",
+        "category": "E-Journals",
+        "isbn": "978-0-00-000000-0"
+    },
+    {
+        "title": "Journal of Biological Sciences",
+        "price": 165,
+        "author": "Dr. R. Varma",
+        "publisher": "BioVision",
+        "category": "E-Journals",
+        "isbn": "978-0-00-000000-0"
+    },
+    {
+        "title": "Innovative Engineering Journal",
+        "price": 170,
+        "author": "Eng. N. Iyer",
+        "publisher": "Innovatech",
+        "category": "E-Journals",
+        "isbn": "978-0-00-000000-0"
+    },
+    
+    {
+        "title": "World Encyclopedia of History",
+        "price": 120,
+        "author": "Multiple Authors",
+        "publisher": "Global Library",
+        "category": "Library Books",
+        "isbn": "978-0-00-000000-0"
+    },
+    {
+        "title": "The Great Literary Classics",
+        "price": 135,
+        "author": "Various",
+        "publisher": "Classic Reads",
+        "category": "Library Books",
+        "isbn": "978-0-00-000000-0"
+    },
+    {
+        "title": "Global Art and Culture",
+        "price": 145,
+        "author": "Art Historian",
+        "publisher": "CulturePress",
+        "category": "Library Books",
+        "isbn": "978-0-00-000000-0"
+    },
+    {
+        "title": "A Comprehensive Atlas of the World",
+        "price": 160,
+        "author": "Carto Graphics",
+        "publisher": "Atlas Publishers",
+        "category": "Library Books",
+        "isbn": "978-0-00-000000-0"
+    },
+    
+    {
+        "title": "Fundamentals of Sports Science",
+        "price": 210,
+        "author": "Coach R. Mathew",
+        "publisher": "SportsWorld",
+        "category": "Sports Books",
+        "isbn": "978-0-00-000000-0"
+    },
+    {
+        "title": "Champion's Playbook: Strategies in Sports",
+        "price": 225,
+        "author": "Expert J. Thomas",
+        "publisher": "WinningEdge",
+        "category": "Sports Books",
+        "isbn": "978-0-00-000000-0"
+    },
+    {
+        "title": "The History of the Olympic Games",
+        "price": 235,
+        "author": "Historian L. Evans",
+        "publisher": "Olympic Press",
+        "category": "Sports Books",
+        "isbn": "978-0-00-000000-0"
+    },
+    {
+        "title": "Training Techniques for Athletes",
+        "price": 205,
+        "author": "Coach M. Daniels",
+        "publisher": "AthleteWorks",
+        "category": "Sports Books",
+        "isbn": "978-0-00-000000-0"
+    },
+    
     {
         "title": "I Wonder How",
         "price": 2,
@@ -578,7 +495,7 @@
     },
     {
         "title": "Basic Methods in Microscopy",
-        "price":1,
+        "price": 1,
         "author": "John Smith",
         "publisher": "Science Press",
         "category": "Other Collections",
@@ -603,4 +520,5 @@
         "isbn": "978-0-123456-004",
         "thumbnail": "thumbnails/how_to_paint_draw.jpg"
     }
+    
 ]
