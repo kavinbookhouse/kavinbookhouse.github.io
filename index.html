@@ -112,6 +112,21 @@
       </div>
     </div>
 
+    <!-- Construction Popup Modal -->
+    <div class="modal fade" id="constructionModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">⚠️ Notice</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body text-center">
+            <img src="construction.png" alt="Construction Icon" class="img-fluid mb-3" style="max-width: 100px;" />
+            <p>Our website is currently under construction.</p>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Categories -->
 
@@ -124,7 +139,7 @@
 
       <!-- New narrow right column -->
       <div class="col-md-3">
-        <div class="card">
+        <div class="card" style="position: sticky; top: 80px;">
           <div class="card-header">
             <h5 class="mb-0">Best Sellers</h5>
             <p class="text-muted" style="font-size: 0.9em; margin-top: 10px;">(Copyrights to the publisher for all books
@@ -145,7 +160,6 @@
               <li class="list-group-item">Amarchitra stories</li>
               <li class="list-group-item">Asterix comics</li>
               <li class="list-group-item">Papermate Notebooks - All sizes</li>
-
             </ul>
           </div>
         </div>
@@ -187,6 +201,10 @@
         });
         categoriesContainer.appendChild(div);
       });
+
+      // Show the construction modal on page load
+      const constructionModal = new bootstrap.Modal(document.getElementById('constructionModal'));
+      constructionModal.show();
     });
   </script>
 </body>
